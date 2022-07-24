@@ -50,6 +50,8 @@ copy:
 social:
   # fab fa-github: https://github.com/xxxxx || Github
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  fab fa-github: https://gitee.com/tryrun || Gitee
+  fas fa-envelope: mailto:2071916845@qq.com || Email
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
