@@ -218,15 +218,24 @@ post_copyright:
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 # Sponsor/reward
-reward:
-  enable: false
-  QR_code:
+# reward:
+#   enable: false
+#   QR_code:
     # - img: /img/wechat.jpg
     #   link:
     #   text: wechat
     # - img: /img/alipay.jpg
     #   link:
     #   text: alipay
+reward:
+  enable: true
+  QR_code:
+    - img: /img/wxpay.webp
+      link:
+      text: 微信
+    - img: /img/alipay.webp
+      link:
+      text: 支付宝
 
 # Post edit
 # Easily browse and edit blog source code online.
