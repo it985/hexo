@@ -2,7 +2,7 @@
 # see https://butterfly.js.org/posts/4aa8abbe/#導航菜單
 # --------------------------------------
 
-menu:
+# menu:
   # Home: / || fas fa-home
   # Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
@@ -12,6 +12,17 @@ menu:
   #   Movie: /movies/ || fas fa-video
   # Link: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
+menu:
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  # 清单||fa fa-heartbeat:
+  #   音乐: /music/ || fas fa-music
+  #   照片: /Gallery/ || fas fa-images
+  #   电影: /movies/ || fas fa-video
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
