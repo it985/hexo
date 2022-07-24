@@ -197,7 +197,8 @@ index_post_content:
 
 # anchor
 # when you scroll in post, the URL will update according to header id.
-anchor: false
+# anchor: false
+anchor: true #文章锚点
 
 # Post
 # --------------------------------------
