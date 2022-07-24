@@ -1029,7 +1029,8 @@ neat_js:
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    <link rel="stylesheet" href="/css/transpancy.css">  #主题背景透明度
+    - <link rel="stylesheet" href="/css/transpancy.css">  #主题背景透明度
+    - <link rel="stylesheet" href="/css/font.css">   #字体
   bottom:
     # - <script src="xxxx"></script>
 
