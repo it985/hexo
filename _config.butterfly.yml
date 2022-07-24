@@ -94,9 +94,12 @@ katex:
 favicon: /img/favicon.png
 
 # Avatar (頭像)
+# avatar:
+#   img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+#   effect: false
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
-  effect: false
+  img: https://q1.qlogo.cn/g?b=qq&nk=2071916845&s=640
+  effect: true # **头像会一直转圈**
 
 # Disable all banner image
 disable_top_img: false
