@@ -141,20 +141,24 @@ archive_img:
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
+# 如果标签页的标题未设置，则显示top_img
 tag_img:
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
+# 标签页的横幅图像
 tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
+# 如果类别页面的横幅没有设置，则会显示top_img
 category_img:
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
+# 类别页的横幅图像
 category_per_img:
 
 cover:
@@ -170,6 +174,7 @@ cover:
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
+# 404显示
 error_img:
   flink: /img/friend_404.gif
   post_page: /img/404.jpg
@@ -180,6 +185,7 @@ error_404:
   subtitle: 'Page Not Found'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
+# 文章meta
 # post_meta:
 #   page: # Home Page
 #     date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
@@ -207,6 +213,7 @@ post_meta:
     tags: true # true or false 文章页是否显示标籤
     label: true # true or false 显示描述性文字。
 
+# 字数统计
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
 # wordcount:
@@ -225,10 +232,16 @@ wordcount:
 # 2: both (if the description exists, it will show description, or show the auto_excerpt)
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
+#在主页上显示文章介绍
+# 1:描述
+# 2:两者都有(如果描述存在，它将显示描述，或显示auto_摘录)
+# 3: auto_摘录(默认)
+# false:不显示文章介绍
 index_post_content:
   method: 3
-  length: 500 # if you set method to 2 or 3, the length need to config
+  length: 500 # if you set method to 2 or 3, the length need to config 如果method设置为2或3，则需要配置长度
 
+# 文章锚点
 # anchor
 # when you scroll in post, the URL will update according to header id.
 # anchor: false
@@ -252,6 +265,7 @@ post_copyright:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
+# 打赏
 # Sponsor/reward
 # reward:
 #   enable: false
@@ -286,9 +300,11 @@ related_post:
   limit: 6 # Number of posts displayed
   date_type: created # or created or updated 文章日期顯示創建日或者更新日
 
+# 图片描述
 # figcaption (圖片描述文字)
 photofigcaption: false
 
+# 分页
 # post_pagination (分頁)
 # value: 1 || 2 || false
 # 1: The 'next post' will link to old post
@@ -296,6 +312,7 @@ photofigcaption: false
 # false: disable pagination
 post_pagination: 1
 
+# 文章过期提醒
 # Displays outdated notice for a post (文章過期提醒)
 # noticeOutdate:
 #   enable: false
@@ -337,6 +354,7 @@ addtoany:
 # Comments System
 # --------------------------------------
 
+# 评论
 # comments:
 #   # Up to two comments system, the first will be shown as default
 #   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42
@@ -500,6 +518,7 @@ crisp:
   enable: false
   website_id:
 
+# 页脚
 # Footer Settings
 # --------------------------------------
 footer:
@@ -723,6 +742,7 @@ hr_icon:
   icon: # the unicode value of Font Awesome icon, such as '\3423'
   icon-top:
 
+# 副标题打字特性
 # the subtitle on homepage (主頁subtitle)
 # subtitle:
 #   enable: false
@@ -755,12 +775,14 @@ subtitle:
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
 
+# 加载动画
 # Loading Animation (加載動畫)
 preloader: false
 
 # aside (側邊欄)
 # --------------------------------------
 
+# 侧边栏
 aside:
   enable: true
   hide: false
