@@ -33,7 +33,8 @@ highlight_lang: true # show the code language
 # highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 highlight_shrink: true #代码框不展开，需点击 '>' 打开
 highlight_height_limit: false # unit: px
-code_word_wrap: false
+# code_word_wrap: false
+code_word_wrap: true #代码换行
 
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
