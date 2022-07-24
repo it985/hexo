@@ -306,15 +306,26 @@ addtoany:
 # Comments System
 # --------------------------------------
 
+# comments:
+#   # Up to two comments system, the first will be shown as default
+#   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42
+#   use: # Valine,Disqus
+#   text: true # Display the comment name next to the button
+#   # lazyload: The comment system will be load when comment element enters the browser's viewport.
+#   # If you set it to true, the comment count will be invalid
+#   lazyload: false
+#   count: false # Display comment count in post's top_img
+#   card_post_count: false # Display comment count in Home Page
 comments:
   # Up to two comments system, the first will be shown as default
-  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42
-  use: # Valine,Disqus
+  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
+  use: 
+      - Valine
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
-  count: false # Display comment count in post's top_img
+  lazyload: true
+  count: true # Display comment count in top_img
   card_post_count: false # Display comment count in Home Page
 
 # disqus
@@ -348,9 +359,17 @@ gitalk:
 
 # valine
 # https://valine.js.org
+# valine:
+#   appId: # leancloud application app id
+#   appKey: # leancloud application app key
+#   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
+#   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+#   bg: # valine background
+#   visitor: false
+#   option:
 valine:
-  appId: # leancloud application app id
-  appKey: # leancloud application app key
+  appId: IXu0y3xTF5balDLDO0Bds3VP-gzGzoHsz # leancloud application app id
+  appKey: 41egQojsRlNtDPDXLN4cjmbv # leancloud application app key
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
