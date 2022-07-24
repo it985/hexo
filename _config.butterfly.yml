@@ -730,9 +730,15 @@ busuanzi:
 
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
+# runtimeshow:
+#   enable: false
+#   publish_date:
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 6/7/2018 00:00:00  
+  ##网页开通时间
+  #格式: 月/日/年 时间
+  #也可以写成 年/月/日 时间
 
 # Aside widget - Newest Comments
 newest_comments:
