@@ -30,7 +30,8 @@ menu:
 highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
-highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+# highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_shrink: true #代码框不展开，需点击 '>' 打开
 highlight_height_limit: false # unit: px
 code_word_wrap: false
 
