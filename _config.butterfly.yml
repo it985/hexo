@@ -746,18 +746,30 @@ newest_comments:
 # --------------------------------------
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
+# translate:
+#   enable: false
+#   # The text of a button
+#   default: 繁
+#   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
+#   defaultEncoding: 2
+#   # Time delay
+#   translateDelay: 0
+#   # The text of the button when the language is Simplified Chinese
+#   msgToTraditionalChinese: '繁'
+#   # The text of the button when the language is Traditional Chinese
+#   msgToSimplifiedChinese: '簡'
 translate:
-  enable: false
-  # The text of a button
-  default: 繁
-  # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
-  defaultEncoding: 2
-  # Time delay
+  enable: true
+  # 默认按钮显示文字(网站是简体，应设置为'default: 繁')
+  default: 简
+  #网站默认语言，1: 繁体中文, 2: 简体中文
+  defaultEncoding: 1
+  #延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
   translateDelay: 0
-  # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '繁'
-  # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '簡'
+  #当文字是简体时，按钮显示的文字
+  msgToTraditionalChinese: "繁"
+  #当文字是繁体时，按钮显示的文字
+  msgToSimplifiedChinese: "简"
 
 # Read Mode (閲讀模式)
 readmode: true
