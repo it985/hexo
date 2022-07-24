@@ -1,5 +1,5 @@
 ---
-title: ohmygirl
+title: OH MY GIRL
 date: 2022-07-24 18:55:14
 ---
 {% gallery %}

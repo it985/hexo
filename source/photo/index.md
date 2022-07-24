@@ -1,5 +1,5 @@
 ---
-title: photo
+title: 相册
 date: 2022-07-24 18:53:18
 ---
 <div class="gallery-group-main">

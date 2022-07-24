@@ -1,5 +1,5 @@
 ---
-title: wallpaper
+title: 壁纸
 date: 2022-07-24 18:53:45
 ---
 {% gallery %}
