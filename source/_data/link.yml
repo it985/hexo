@@ -5,7 +5,19 @@
       link: https://hexo.io/zh-tw/
       avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
       descr: 快速、简单且强大的网誌框架
-
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://adn.arcitcgn.cn/npm/guli-heo/img/avatar2.png
+      descr: 分享设计与科技生活
+    - name: Leonus's blog
+      link: https://blog.leonus.cn/
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=553344777&s=5
+      descr: 进一寸有进一寸的欢喜。
+      theme_color: "#447c7bb3"
+    - name: 咕咕云梦泽
+      link: https://blog.pai233.top/
+      descr: Write Down My Life.
+      avatar: https://blog.pai233.top/img/avatar.jpg
 - class_name: 网站
   class_desc: 值得推荐的网站
   link_list:
