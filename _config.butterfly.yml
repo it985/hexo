@@ -64,10 +64,20 @@ algolia_search:
     per_page: 6
 
 # Local search
+# local_search:
+#   enable: false
+#   preload: false
+#   CDN:
 local_search:
-  enable: false
-  preload: false
+  enable: true
+  preload: true
   CDN:
+
+search:
+  path: search.xml
+  field: all 
+  content: true
+  template: ./search.xml
 
 # Math (數學)
 # --------------------------------------
