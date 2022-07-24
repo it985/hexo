@@ -934,8 +934,16 @@ note:
 # Pjax
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
-pjax:
-  enable: false
+# pjax:
+#   enable: false
+#   exclude:
+#     # - xxxx
+#     # - xxxx
+# Pjax [Beta]
+# It may contain bugs and unstable, give feedback when you find the bugs.
+# https://github.com/MoOx/pjax
+pjax: 
+  enable: true
   exclude:
     # - xxxx
     # - xxxx
