@@ -1,7 +1,7 @@
 # Main menu navigation (導航目錄)
 # see https://butterfly.js.org/posts/4aa8abbe/#導航菜單
 # --------------------------------------
-
+# 目录
 # menu:
   # Home: / || fas fa-home
   # Archives: /archives/ || fas fa-archive
@@ -27,17 +27,18 @@ menu:
 
 # Code Blocks (代碼相關)
 # --------------------------------------
-
+# 代码块
 highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
-highlight_copy: true # copy button
-highlight_lang: true # show the code language
+highlight_copy: true # copy button 复制按钮 
+highlight_lang: true # show the code language 显示代码语言
 # highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 highlight_shrink: true #代码框不展开，需点击 '>' 打开
-highlight_height_limit: false # unit: px
+highlight_height_limit: false # unit: px 突出高度限制
 # code_word_wrap: false
 code_word_wrap: true #代码换行
 
 # copy settings
+# 复制内容后添加版权信息
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
 copy:
   enable: true
@@ -46,6 +47,7 @@ copy:
     limit_count: 50
 
 # social settings (社交圖標設置)
+# 社交设置
 # formal:
 #   icon: link || the description
 social:
@@ -58,12 +60,14 @@ social:
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
 # --------------------------------------
 
+# 在线搜索
 # Algolia search
 algolia_search:
   enable: false
   hits:
     per_page: 6
 
+# 本地搜索
 # Local search
 # local_search:
 #   enable: false
@@ -86,6 +90,11 @@ search:
 # if you set it to true, it will load mathjax/katex script in each page (true 表示每一頁都加載js)
 # if you set it to false, it will load mathjax/katex script according to your setting (add the 'mathjax: true' in page's front-matter)
 # (false 需要時加載，須在使用的 Markdown Front-matter 加上 mathjax: true)
+#数学
+# --------------------------------------
+#关于per_page
+# 如果设置为true，它将在每个页面加载mathjax/katex脚本
+# 如果你设置为false，它将根据你的设置加载mathjax/katex脚本
 
 # MathJax
 mathjax:
@@ -102,26 +111,32 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
+# 网站图标
 favicon: /img/favicon.png
 
 # Avatar (頭像)
 # avatar:
 #   img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
 #   effect: false
+# 头像
 avatar:
   img: https://q1.qlogo.cn/g?b=qq&nk=2071916845&s=640
   effect: true # **头像会一直转圈**
 
 # Disable all banner image
+# 禁用所有横幅图像
 disable_top_img: false
 
 # The banner image of home page
+# 首页的横幅图像
 index_img:
 
 # If the banner of page not setting, it will show the top_img
+# 如果页面的横幅没有设置，它将显示top_img
 default_top_img:
 
 # The banner image of archive page
+# 存档页面的横幅图像
 archive_img:
 
 # If the banner of tag page not setting, it will show the top_img
