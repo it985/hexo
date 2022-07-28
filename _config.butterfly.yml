@@ -1068,8 +1068,18 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="/css/transpancy.css">  #主题背景透明度
     # - <link rel="stylesheet" href="/css/font.css">   #字体
+    # - <link rel="manifest" href="img/pwa/manifest.json">
   bottom:
     # - <script src="xxxx"></script>
+
+# pwa
+# offline config passed to sw-precache.
+# service_worker:
+#   maximumFileSizeToCacheInBytes: 5242880
+#   staticFileGlobs:
+#   - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}
+#   stripPrefix: public
+#   verbose: true
 
 # CDN
 # Don't modify the following settings unless you know how they work
