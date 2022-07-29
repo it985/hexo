@@ -922,11 +922,11 @@ rightside_item_order:
 
 # medium-zoom
 # https://github.com/francoischalifour/medium-zoom
-medium_zoom: false
+medium_zoom: true
 
 # fancybox
 # http://fancyapps.com/fancybox/3/
-fancybox: true
+fancybox: false
 
 # Tag Plugins settings (標籤外掛)
 # --------------------------------------
@@ -1067,8 +1067,10 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
 
-    - <link rel="stylesheet" href="/global.css"> 
+    # - <link rel="stylesheet" href="/global.css"> 
     # - <link rel="stylesheet" href="/global.js"> 
+      - <link rel="stylesheet" href="/global.min.css"> 
+    # - <link rel="stylesheet" href="/global.min.js"> 
 
     # - <link rel="manifest" href="img/pwa/manifest.json">
   bottom:
