@@ -1,5 +1,5 @@
 /* 字体 */
-  /* @font-face{
+@font-face{
     font-family: 'OPPOSans-by-宁静之雨';
     
     src: url('/font/OPPOSans.ttf') format("truetype");
@@ -7,7 +7,7 @@
 
 body {
     font-family: 'OPPOSans-by-宁静之雨';
-} */
+} 
 /* @font-face{
   font-family: 'SentySnowMountain';
   
@@ -16,7 +16,7 @@ body {
 
 body {
   font-family: 'SentySnowMountain';
-} */
+}  */
 
 
 /* 主题背景透明度 */
