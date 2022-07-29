@@ -1119,7 +1119,7 @@ inject:
     # - <link rel="manifest" href="img/pwa/manifest.json">
   bottom:
     # - <script src="xxxx"></script>
-    # - <script src="/global.min.js"></script>
+    - <script src="/global.min.js"></script>
 
 # pwa
 # offline config passed to sw-precache.
