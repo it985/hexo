@@ -1,13 +1,16 @@
 ---
 title: hexo-butterfly主题魔改记录之三
-date: 2022-07-17 02:43:52.695
-updated: 2022-07-17 02:43:52.695
-url: 
+keywords: 'hexo,美化,教程'
+top_img: img/hzw.webp
+cover: img/hzw.webp
 sticky: 3
-categories: 
-- hexo
-tags: 
-- hexo
+categories:
+  - hexo
+tags:
+  - hexo
+abbrlink: 56828
+date: 2022-07-17 02:43:52
+updated: 2022-07-17 02:43:52
 ---
 
 # hexo-butterfly主题魔改记录之三

@@ -1,13 +1,16 @@
 ---
 title: hexo-butterfly主题魔改记录之二
-date: 2022-07-17 01:08:27.695
-updated: 2022-07-17 01:08:27.695
-url: 
+keywords: 'hexo,美化,教程'
+top_img: img/hzw.webp
+cover: img/hzw.webp
 sticky: 2
-categories: 
-- hexo
-tags: 
-- hexo
+categories:
+  - hexo
+tags:
+  - hexo
+abbrlink: 48701
+date: 2022-07-17 01:08:27
+updated: 2022-07-17 01:08:27
 ---
 
 # hexo-butterfly主题魔改记录之二
@@ -230,7 +233,7 @@ type: "link"
 
 由 2.2.0 起，友情链接界面可以由用户自己自定义，只需要在友情链接的md档设置就行，以普通的Markdown格式书写。
 
-### 图库
+## 图库
 
 图库页面只是普通的页面，你只需要`hexo n page xxxxx` 创建你的页面就行
 
@@ -244,7 +247,7 @@ type: "link"
 </div>
 ```
 
-#### 子页面
+### 子页面
 
 子页面也是普通的页面，你只需要`hexo n page xxxxx` 创建你的页面就行
 
