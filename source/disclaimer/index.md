@@ -1,7 +1,7 @@
 ---
-title: disclaimer
+title: 免责声明
 date: 2022-08-07 23:20:11
-type: "免责声明"
+type: "disclaimer"
 ---
 # 免责声明
 
