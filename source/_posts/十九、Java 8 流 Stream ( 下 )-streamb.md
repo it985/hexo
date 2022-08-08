@@ -1,0 +1,118 @@
+---
+title: 十九、Java 8 流 Stream ( 下 )
+top_img: img/hzw.webp
+cover: img/hzw.webp
+categories:
+  - Java
+tags:
+  - Java8
+abbrlink: f4456923
+date: 2022-05-05 19:12:18
+updated: 2022-05-18 18:49:27
+---
+
+# 十九、Java 8 流 Stream ( 下 )
+
+上一章节 Java 8 流 Stream ( 上 ) 因为时间关系，我们介绍到一半半就停止了。本章节我们继续。
+
+### limit() 方法
+
+`limit()` 方法用于减少( 限制 ) 流中的元素数量。
+
+例如下面的代码段演示了如何使用 `limit()` 方法只输出 10 个随机数
+
+```JAVA
+Random random = new Random();
+random.ints().limit(10).forEach(System.out::println);
+```
+
+### sorted() 方法
+
+`sorted()` 方法用于给流中的元素进行排序。
+
+下面的范例演示了如何按照排序顺序打印 10 个随机数
+
+```JAVA
+Random random = new Random();
+random.ints().limit(10).sorted().forEach(System.out::println);
+```
+
+## 并发处理
+
+`parallelStream()` 是需要并发处理的流的替代方案。`stream()` 方法产生的流只能是串行处理，可以理解为只在一个线程中，按照流中元素的顺序一个接一个的处理。
+
+而并发处理，就是传说中的 `map-reduce` 方法，可以充分利用多核优势。
+
+需要注意的是，`parallelStream()` 会打乱流的顺序，也就是返回的序列顺序不一定是输入的序列顺序。
+
+例如下面的代码用于打印序列中的空字符串的数量
+
+```JAVA
+List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
+
+//get count of empty string
+int count = strings.parallelStream().filter(string -> string.isEmpty()).count();
+```
+
+因为 `stream()` 返回是串行流，而 `parallelStream()` 返回的是并行流。因此在串行和并行之间切换是非常简单的。
+
+## 收集器 （ Collectors ）
+
+收集器 （ Collectors ）用于将已经处理的流中的元素组合到一起。
+
+`Collectors` 类提供了大量方法用于指示如何收集元素。
+
+比如 `Collectors.toList()` 方法可以将流中的元素收集起来，并转换为列表
+
+```JAVA
+List<String>strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
+List<String> filtered = strings.stream().filter(string -> !string.isEmpty()).collect(Collectors.toList());
+
+System.out.println("Filtered List: " + filtered);
+```
+
+比如 `Collectors.joining()` 方法可以将流中的元素收集起来，并使用指定的字符串拼接符拼接成一个字符串。
+
+```JAVA
+List<String>strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
+String mergedString = strings.stream().filter(string -> !string.isEmpty()).collect(Collectors.joining(", "));
+
+System.out.println("Merged String: " + mergedString);
+```
+
+## 统计 ( Statistics )
+
+Java 8 同时新增了大量的统计收集器来来获取流中的元素的一些统计信息。
+
+前提是我们先要在流上调用 `summaryStatistics()` 方法返回统计信息概要，然后在调用相应的方法来获取具体的统计信息。
+
+例如下面的代码，先调用 `summaryStatistics()` 方法返回统计概要，然后调用 `getMax()` 方法获取最大值
+
+```JAVA
+List numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
+
+IntSummaryStatistics stats = integers.stream().mapToInt((x) -> x).summaryStatistics();
+
+System.out.println("Highest number in List : " + stats.getMax());
+```
+
+例如下面的代码，先调用 `summaryStatistics()` 方法返回统计概要，然后调用 `getMin()` 和 `getSum()` 方法获取最小值和所有数字之和
+
+```JAVA
+List numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
+
+IntSummaryStatistics stats = integers.stream().mapToInt((x) -> x).summaryStatistics();
+
+System.out.println("Lowest number in List : " + stats.getMin());
+System.out.println("Sum of all numbers : " + stats.getSum());
+```
+
+例如下面的代码，先调用 `summaryStatistics()` 方法返回统计概要，然后调用 `getAverage()` 方法获取平均值
+
+```JAVA
+List numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
+
+IntSummaryStatistics stats = integers.stream().mapToInt((x) -> x).summaryStatistics();
+
+System.out.println("Average of all numbers : " + stats.getAverage());
+```
