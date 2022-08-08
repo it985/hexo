@@ -132,37 +132,37 @@ disable_top_img: false
 
 # The banner image of home page
 # 首页的横幅图像
-index_img:
+index_img: img/hzw.webp
 
 # If the banner of page not setting, it will show the top_img
 # 如果页面的横幅没有设置，它将显示top_img
-default_top_img:
+default_top_img: img/hzw.webp
 
 # The banner image of archive page
 # 存档页面的横幅图像
-archive_img:
+archive_img: img/hzw.webp
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
 # 如果标签页的标题未设置，则显示top_img
-tag_img:
+tag_img: img/hzw.webp
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
 # 标签页的横幅图像
-tag_per_img:
+tag_per_img: img/hzw.webp
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
 # 如果类别页面的横幅没有设置，则会显示top_img
-category_img:
+category_img: img/hzw.webp
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
 # 类别页的横幅图像
-category_per_img:
+category_per_img: img/hzw.webp
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -637,10 +637,10 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: url(https://www.dmoe.cc/random.php)
 
 # Footer Background
-footer_bg: false
+footer_bg: true
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
