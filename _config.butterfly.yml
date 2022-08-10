@@ -722,9 +722,9 @@ display_mode: light
 # 美化页面显示
 beautify:
   enable: true
-  field: site # site/post
-  title-prefix-icon: '\f0c1'
-  title-prefix-icon-color: "#F47466"
+  field: post # site/post
+  title-prefix-icon: '\f863'
+  title-prefix-icon-color: '#F47466'
 
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
