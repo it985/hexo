@@ -22,7 +22,7 @@ Java 语言中， 多线程是由 Thread 的核心概念驱动的。因为多线
 
 我们先来看一张草图，这图描述了 Java 线程的各种状态和转换过程。
 
-![img_1.png](https://s3.bmp.ovh/imgs/2022/05/04/b5b70b4c71c1fcaa.png)
+![img_1.png](https://s3.uuu.ovh/imgs/2022/05/04/b5b70b4c71c1fcaa.png)
 
 是不是很杂乱无章？ 看不懂没关系，我们接下来会详细介绍各个状态。
 

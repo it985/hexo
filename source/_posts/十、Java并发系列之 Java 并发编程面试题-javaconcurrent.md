@@ -1,8 +1,8 @@
 ---
 title: 十、Java并发系列之 Java 并发编程面试题
 categories:
-  - - Java
-  - - 面试
+  - [Java]
+  - [面试]
 tags:
   - Java并发
   - 面试
