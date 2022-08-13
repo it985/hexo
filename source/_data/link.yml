@@ -22,6 +22,41 @@
       link: https://tryrun.gitee.io
       descr: 集大家之所长，补其吾所短.
       avatar: https://q1.qlogo.cn/g?b=qq&nk=2071916845&s=5
+    - name: 小冰博客
+      link: https://zfe.one
+      avatar: https://zfe.space/images/headimage.png
+      descr: 做个有梦想的人！
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://assets.akilar.top/image/siteicon/favicon.png
+      descr: 期待您的光临！
+      siteshot: https://cdn.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/akilar.top.jpg
+    - name: Ethan.Tzy
+      link: https://tzy1997.com/
+      avatar: https://bu.dusays.com/2022/05/02/626f92e193879.jpg
+      descr: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志
+      screenshot: https://bu.dusays.com/2021/12/07/38a0bd6cef409.jpg
+    - name: 卓越科技的Blog
+      link: https://zykj.js.org/
+      avatar: https://cdn.jsdelivr.net/gh/zykjofficial/zykjofficial.github.io@master/img/avatar.png
+      descr: Remarkable life,for science and technology.
+    - name: Guo Le's Blog
+      link: https://guole.fun/
+      avatar: https://guole.fun/img/gl.jpg
+      descr: 生命是独立是自由是爱与和平
+    - name: Eacls
+      link: https://www.eacls.top/
+      avatar: https://www.eacls.top/img/favicon.png
+      descr: 看一看世界的繁华
+    - name: MJ's Blog
+      descr: 醒亦念卿，梦亦念卿
+      link: https://blog.justlovesmile.top
+      avatar: https://npm.elemecdn.com/justlovesmile-img/logo.jpg
+    - name: Lete乐特
+      link: https://blog.imlete.cn
+      avatar: https://www.imlete.cn/img/avatar.png
+      descr: 人生只有一次，大胆的生活！！
+      screenshot: https://webstack-screenshot.vercel.app/?url=blog.imlete.cn&viewport=1920x1080&fullPage=false&cache=7879680
 - class_name: 网站
   class_desc: 值得推荐的网站
   link_list:
