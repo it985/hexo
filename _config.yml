@@ -22,7 +22,8 @@ timezone: 'Asia/Shanghai'
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://tryrun.gitee.io
 # permalink: :year/:month/:day/:title/
-permalink: posts/:hash/:abbrlink.html #我这里改成posts/:hash/:abbrlink.html设置永久链接
+# permalink: posts/:hash/:abbrlink.html #我这里改成posts/:hash/:abbrlink.html设置永久链接
+permalink: posts/:abbrlink.html #我这里改成posts/:abbrlink.html设置永久链接
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
