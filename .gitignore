@@ -8,3 +8,7 @@ public/
 .github/
 .git/
 .idea/
+article/
+img*/
+*.lnk
+json/
