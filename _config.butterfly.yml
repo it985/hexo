@@ -840,7 +840,7 @@ aside:
   hide: false
   button: true
   mobile: true # 手机页面（ 显示宽度 < 768px ）是否显示aside内容
-  position: right # left or right 
+  position: left # left or right 
   card_history: # 添加开关名称
     enable: true # 打开card_history开关
   card_author: # 关于博主的一些信息
