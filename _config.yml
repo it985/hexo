@@ -136,3 +136,9 @@ deploy:
 # 博文双栏 npm i hexo-butterfly-article-double-row --save
 butterfly_article_double_row:
   enable: true  
+
+# 生成一个包含所有博客文章链接的文件 npm install hexo-generator-readme-file --save
+readmeConfig:
+  postsHeader: '## My posts' # headers, support markdown
+  sort: 'desc' # posts display sort: 'desc' or 'acs'. The default option is 'desc'
+  groupType: 'month' # 'month' or 'year' or 'none'. The default option is 'month'  
