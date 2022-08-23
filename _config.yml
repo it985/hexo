@@ -132,3 +132,7 @@ deploy:
   type: git
   repository: https://gitee.com/tryrun/tryrun.git
   branch: master
+
+# 博文双栏 npm i hexo-butterfly-article-double-row --save
+butterfly_article_double_row:
+  enable: true  
