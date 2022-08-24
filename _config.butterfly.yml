@@ -640,7 +640,7 @@ tag_ui: # 留空或 index
 background: url(https://www.dmoe.cc/random.php)
 
 # Footer Background
-footer_bg: true
+footer_bg: transparent
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
