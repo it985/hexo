@@ -536,3 +536,124 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
   a.category-list-link::before {
   content: "🎭";
 }
+/* 翻页位置居中 */
+#pagination {
+  flex: auto;
+  width: 100%;
+}
+#pagination .page-number.current {
+  color: var(--white);
+  background: var(--light-text);
+}
+#pagination .page-number,
+#pagination a.extend,
+#pagination span {
+  color: var(--font-color);
+  border-radius: var(--border-radius);
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  border: var(--card-border);
+  box-shadow: none;
+}
+#pagination a.extend:hover,
+#pagination a.page-number:hover {
+  color: var(--second);
+  background: var(--main);
+  box-shadow: var(--main-shadow);
+}
+.pagination span.space {
+  border: none !important;
+  font-weight: 700;
+  background: 0 0 !important;
+}
+#pagination a.extend i {
+  line-height: 1.8rem;
+}
+#pagination a.extend.prev {
+  display: flex;
+  width: 4.5rem;
+  float: left;
+  padding: 0 0.8rem 0 0.2rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+#pagination a.extend.next {
+  display: flex;
+  width: 4.5rem;
+  float: right;
+  padding: 0 0.2rem 0 0.8rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+#pagination.pagination-post {
+  border-radius: var(--border-radius);
+}
+#pagination .next-post .label,
+#pagination .prev-post .label {
+  font-size: 1rem;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+#pagination .next-post .next_info,
+#pagination .prev-post .prev_info {
+  font-size: 1.1rem;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+#pagination .next-post,
+#pagination .prev-post {
+  border: var(--card-border);
+}
+#pagination .next-post:hover img,
+#pagination .prev-post:hover img {
+  opacity: 0.1;
+}
+#pagination .next-post:hover a,
+#pagination .prev-post:hover a {
+  background: var(--main);
+  color: var(--second);
+  box-shadow: var(--main-shadow);
+}
+#pagination .next-post:hover .label,
+#pagination .next-post:hover .next_info,
+#pagination .prev-post:hover .label,
+#pagination .prev-post:hover .prev_info {
+  opacity: 0;
+}
+#pagination .content {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  padding: 0 1rem;
+  color: var(--second);
+  text-align: justify;
+  word-break: break-all;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#pagination .next-post:hover .content,
+#pagination .prev-post:hover .content {
+  opacity: 1;
+}
