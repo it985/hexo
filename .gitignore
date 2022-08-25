@@ -12,3 +12,4 @@ article/
 img*/
 *.lnk
 json/
+.xlsx
