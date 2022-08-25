@@ -18,7 +18,7 @@
     "hexo-all-minifier": "^0.5.7",
     "hexo-butterfly-article-double-row": "^1.0.2",
     "hexo-butterfly-clock": "^1.0.7",
-    "hexo-butterfly-extjs": "^1.2.6",
+    "hexo-butterfly-extjs": "^1.2.7",
     "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",

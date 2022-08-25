@@ -1131,6 +1131,72 @@ neat_js:
     - '**/jquery.fancybox.pack.js'
     - '**/index.js'
 
+# npm install hexo-all-minifier --save
+all_minifier: true
+js_concator:
+ #enable - Enable the Js concator. Defaults to .false
+  enable: false 
+  #bundle_path - The output path of the bundle script. It will be set as absolute path to the root dir.
+  # 捆绑脚本的输出路径。它将被设置为根目录的绝对路径。
+  bundle_path: '/js/bundle.js' 
+  #front - Put the bundle script in the front of all scripts in tag. Default to , which means the bundle script will be placed in the back of other scripts.bodyfalse
+  front: false 
+  #silent - Disable logging optimize informations. Defaults to .false 禁用日志记录优化信息
+  silent: false 
+html_minifier:
+  # enable - Enable the HTML minifier. Defaults to .true
+  enable: true
+  # ignore_error - Ignore the error occurred on parsing html.
+  ignore_error: false
+  # silent - Disable logging optimize informations. Defaults to .false 
+  silent: false
+  # exclude - Exclude files. Glob is support.  
+  exclude:
+css_minifier:
+  # enable - Enable the CSS minifier. Defaults to .true
+  enable: true
+  # silent - Disable logging optimize informations. Defaults to .false
+  silent: false
+  # exclude - Exclude files. Glob is support.
+  exclude: 
+    - '*.min.css'
+js_minifier:
+  # enable - Enable the JS minifier. Defaults to .true
+  enable: true
+  # mangle: Mangle file names
+  mangle: true
+  # silent - Disable logging optimize informations. Defaults to .false
+  silent: false
+  # output: Output options. If it is empty, please remove it from the .yml file! Otherwise it will be set to , which is different from .nullundefined
+  # 输出选项。如果它是空的，请将其从.yml文件中删除！否则，它将设置为
+  output:
+  # compress: Compress options. If it is empty, please remove it from the .yml file! Otherwise it will be set to , which is different from .nullundefined
+  # 压缩选项。如果它是空的，请将其从.yml文件中删除！否则，它将设置为
+  compress:
+  # exclude: Exclude files. Glob is support.
+  exclude: 
+    - '*.min.js'
+image_minifier:
+  # enable - Enable the image minifier. Defaults to .true
+  enable: true
+  # interlaced - Interlace gif for progressive rendering. Defaults to .false
+  # 隔行扫描 gif 用于渐进式渲染。
+  interlaced: false
+  # multipass - Optimize svg multiple times until it’s fully optimized. Defaults to .false
+  # 多次优化 svg，直到完全优化。
+  multipass: false
+  # optimizationLevel - Select an optimization level between 0 and 7. Defaults to .2
+  # 选择介于 0 和 7 之间的优化级别。
+  optimizationLevel: 2
+  # pngquant - Enable imagemin-pngquant plugin. Defaults to .false
+  pngquant: false
+  # progressive - Lossless conversion to progressive. Defaults to .false
+  progressive: false
+  # silent - Disable logging optimize informations. Defaults to .false
+  silent: false
+  # exclude - Exclude specific types of image files, the input value could be ,, , or . Default to null. Glob is not support.gifjpgpngsvg
+  exclude:
+
 # Inject
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
