@@ -13,3 +13,4 @@ img*/
 *.lnk
 json/
 .xlsx
+package-lock.json
