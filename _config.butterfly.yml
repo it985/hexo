@@ -17,6 +17,7 @@ menu:
   归名档: /archives/ || fas fa-archive
   书中签: /tags/ || fas fa-tags
   归四类: /categories/ || fas fa-folder-open
+  统计 : /charts/ ||fa-fw fas fa-chart-bar
   # 清单||fa fa-heartbeat:
   #   音乐: /music/ || fas fa-music
   #   照片: /Gallery/ || fas fa-images
