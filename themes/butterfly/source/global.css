@@ -769,3 +769,19 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
   border-top-color: #1edafbe5;	/*上边框颜色*/
   border-left-color: #1ef4fbec;	/*左边框颜色*/
 }
+/* 导航栏居中 */
+#nav .menus_items {
+  /* display: inline; 这个带不带都可以，本来就是inline */
+  position: absolute;
+  width: fit-content;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* 子菜单居中 */
+#nav .menus_items .menus_item:hover .menus_item_child{
+  display: flex;
+}
+/* 这里的2是代表导航栏的第二个元素，即有子菜单的元素，可以按自己需求修改 */
+.menus_items .menus_item:nth-child(2) .menus_item_child {
+    left: -65px;
+}
