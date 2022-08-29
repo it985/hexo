@@ -130,8 +130,10 @@ theme: butterfly
 #   type: ''
 deploy:
   type: git
-  repository: https://gitee.com/tryrun/tryrun.git
-  branch: master
+  repo: 
+    - https://gitee.com/tryrun/tryrun.git
+    - https://github.com/it985/it985.github.io.git
+  branch: master  
 
 # 博文双栏 npm i hexo-butterfly-article-double-row --save
 butterfly_article_double_row:
