@@ -12,21 +12,34 @@
   #   Movie: /movies/ || fas fa-video
   # Link: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
+# menu:
+#   笔生花: / || fas fa-home
+#   归名档: /archives/ || fas fa-archive
+#   书中签: /tags/ || fas fa-tags
+#   归四类: /categories/ || fas fa-folder-open
+#   统计 : /charts/ ||fa-fw fas fa-chart-bar
+#   留言板: /leaving/ || fa fa-comments
+#   # 清单||fa fa-heartbeat:
+#   #   音乐: /music/ || fas fa-music
+#   #   照片: /Gallery/ || fas fa-images
+#   #   电影: /movies/ || fas fa-video
+#   #   留香雅婷: /photo/ ||    留言
+#   #   思无涯: /photo/ ||      说说
+#   刹那间: /photo/ || fas fa-images
+#   四方好友: /link/ || fas fa-link
+#   # 余之自荐: /about/ || fas fa-heart 
+#   免责声明: /disclaimer/ || fas fa-heart 
 menu:
   笔生花: / || fas fa-home
-  归名档: /archives/ || fas fa-archive
-  书中签: /tags/ || fas fa-tags
-  归四类: /categories/ || fas fa-folder-open
-  统计 : /charts/ ||fa-fw fas fa-chart-bar
-  留言板: /leaving/ || fa fa-comments
-  # 清单||fa fa-heartbeat:
-  #   音乐: /music/ || fas fa-music
-  #   照片: /Gallery/ || fas fa-images
-  #   电影: /movies/ || fas fa-video
-  #   留香雅婷: /photo/ ||    留言
-  #   思无涯: /photo/ ||      说说
+  望四方  || fa fa-clone :
+    归名档: /archives/ || fas fa-archive
+    书中签: /tags/ || fas fa-tags
+    归四类: /categories/ || fas fa-folder-open
+    统计 : /charts/ ||fa-fw fas fa-chart-bar
+  社交 || fa fa-venus-double :
+    留言板: /leaving/ || fa fa-comments
+    四方好友: /link/ || fas fa-link
   刹那间: /photo/ || fas fa-images
-  四方好友: /link/ || fas fa-link
   # 余之自荐: /about/ || fas fa-heart 
   免责声明: /disclaimer/ || fas fa-heart 
 
