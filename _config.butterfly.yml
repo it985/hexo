@@ -18,6 +18,7 @@ menu:
   书中签: /tags/ || fas fa-tags
   归四类: /categories/ || fas fa-folder-open
   统计 : /charts/ ||fa-fw fas fa-chart-bar
+  留言板: /leaving/ || fa fa-comments
   # 清单||fa fa-heartbeat:
   #   音乐: /music/ || fas fa-music
   #   照片: /Gallery/ || fas fa-images
