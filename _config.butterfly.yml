@@ -1272,7 +1272,8 @@ CDN:
 
   # 第三方js本地化命令
   # npm install hexo-butterfly-extjs  
-  third_party_provider: local
+  # third_party_provider: local
+  third_party_provider: unpkg
 
   # Add version number to CDN, true or false  
   version: false
