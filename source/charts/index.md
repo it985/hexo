@@ -12,7 +12,7 @@ type: "charts"
 <!-- js -->
 <script>
 // 链接替换即可，不需要后面的参数
-fetch('https://v6-widget.51.la/v6/JkxJmzzWDhbGjOFf/quote.js').then(res => res.text()).then((data) => {
+fetch('https://v6-widget.51.la/v6/JiFOrFoQklEn9YLS/quote.js').then(res => res.text()).then((data) => {
     let title = ['最近活跃访客', '今日人数', '今日访问', '昨日人数', '昨日访问', '本月访问', '总访问量']
     let num = data.match(/(?<=<\/span><span>).*?(?=<\/span><\/p>)/g)
     let order = [1, 3, 2, 4, 5] // 新增  可排序，如果需要隐藏则删除对应数字即可。
