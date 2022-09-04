@@ -1225,8 +1225,8 @@ inject:
     - <link rel="stylesheet" href="/global.min.css">
     - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     - <script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
-    - <script> LA.init({id: "JiFOrFoQklEn9YLS",ck: "JiFOrFoQklEn9YLS"})</script>
-    - <script>new LingQue.Monitor().init({id:"JiqlTmdeI4e1fPbd",sendSuspicious:true});</script> 
+    - <script> LA.init({id:"JiFOrFoQklEn9YLS", ck:"JiFOrFoQklEn9YLS"})</script>
+    - <script>new LingQue.Monitor().init({id:"JiqlTmdeI4e1fPbd",sendSuspicious:true});</script>
 
     # - <link rel="manifest" href="img/pwa/manifest.json">
   bottom:
