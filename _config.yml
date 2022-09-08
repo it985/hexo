@@ -124,6 +124,16 @@ ignore:
 # theme: landscape
 theme: butterfly
 
+## Plugins: https://hexo.io/plugins/
+#RSS订阅
+plugin:
+- hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 # deploy:
