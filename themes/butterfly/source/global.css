@@ -1177,3 +1177,140 @@ button#go-up:hover #percent {
   height: 38px;
   font-size: 18px;
 }
+
+/*首页侧边栏*/
+a.flink-list-card {
+  padding: 0 !important;
+  border: var(--card-border) !important;
+  border-radius: var(--border-radius) !important;
+  box-shadow: none !important;
+}
+a.flink-list-card:hover {
+  box-shadow: var(--main-shadow) !important;
+  border-color: var(--main) !important;
+}
+#aside-content .card-info .card-info-data > a {
+  display: inline-block;
+  background: var(--global-bg);
+  border-radius: var(--border-radius);
+  margin: 0 2%;
+  width: 29%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#aside-content .card-info .card-info-data > a:hover {
+  background: var(--main);
+  box-shadow: var(--main-shadow);
+}
+#aside-content .card-info .card-info-data > a:hover .headline,
+#aside-content .card-info .card-info-data > a:hover .length-num {
+  color: var(--second) !important;
+}
+#aside-content .aside-list > .aside-list-item {
+  padding: 0.3rem !important;
+}
+#aside-content .aside-list > .aside-list-item:hover {
+  color: var(--second) !important;
+  background: var(--main);
+  box-shadow: var(--main-shadow);
+  border-radius: var(--border-radius);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#aside-content .aside-list > .aside-list-item:hover .thumbnail > img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#aside-content .aside-list > .aside-list-item:hover a,
+#aside-content .aside-list > .aside-list-item:hover span,
+#aside-content .aside-list > .aside-list-item:hover time {
+  color: var(--second) !important;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#aside-content .aside-list > .aside-list-item:not(:last-child) {
+  border-bottom: none !important;
+}
+
+#aside-content .aside-list > .aside-list-item .thumbnail {
+  border-radius: var(--border-radius);
+}
+#aside-content .aside-list > .aside-list-item .content > .comment,
+#aside-content .aside-list > .aside-list-item .content > .title {
+  font-weight: 500;
+}
+#aside-content
+  .card-archives
+  ul.card-archive-list
+  > .card-archive-list-item
+  a:hover,
+#aside-content
+  .card-categories
+  ul.card-category-list
+  > .card-category-list-item
+  a:hover {
+  padding: 3px 10px;
+  color: var(--second) !important;
+  background: var(--main);
+  border-color: var(--main);
+  box-shadow: var(--main-shadow);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+#aside-content
+  .card-categories.card-widget.card-tags.card-archives.card-webinfo
+  .item-headline
+  * {
+  display: none;
+}
+#aside-content
+  .card-widget.card-tags.card-archives.card-webinfo
+  .item-headline:not(:first-child) {
+  margin-top: 1rem;
+  border-top: var(--card-border);
+  border-width: 2px;
+  border-top-style: dashed;
+}
+#aside-content
+  .card-archives
+  ul.card-archive-list
+  > .card-archive-list-item
+  a
+  span.card-archive-list-date {
+  opacity: 0.8;
+}
+:root {
+  --theme-color: #1677b3;
+  --global-bg: #f2f6fc;
+  --gjcloak-bg: #94d6da;
+  --r: 22;
+  --g: 119;
+  --b: 179;
+  --main: rgb(var(--r), var(--g), var(--b));
+  --second: var(--white);
+  --page-bg-gj: url(https://tuapi.eees.cc/api.php?category=dongman&type=302);
+  --main-light: rgba(var(--r), var(--g), var(--b), 0.4);
+  --cover-bg: rgb(var(--r), var(--g), var(--b));
+  --main-light: rgba(var(--r), var(--g), var(--b), 0.4);
+  --main-shadow: 0 2px 3px 1px rgba(var(--r), var(--g), var(--b), 0.2);
+  --card-border: 1px solid var(--tab-botton-bg);
+  --border-radius: 8px;
+  --light-text: #00c4b6;
+  --default-cursor: url(https://npm.elemecdn.com/eurkon-cdn/hexo/images/user/default.cur);
+  --pointer-cursor: url(https://npm.elemecdn.com/eurkon-cdn/hexo/images/user/pointer.cur);
+}
