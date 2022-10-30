@@ -2284,10 +2284,10 @@ arrify@^1.0.1:
   resolved "https://registry.npmmirror.com/arrify/-/arrify-1.0.1.tgz"
   integrity sha512-3CYzex9M9FGQjCGMGyi6/31c8GJbgb0qGyrx5HWxPd0aCwh4cB2YjMb2Xf9UuoogrMrlO9cTqnB5rI5GHZTcUA==
 
-artalk@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.npmjs.org/artalk/-/artalk-2.4.2.tgz"
-  integrity sha512-ztWxQYpGzs0pOt6stlhOVB8gzPHaOKokXrzYrukV9zDbmxvK/GMrzID2Bk2ajcON2UfXeAUt5SZyFyv55UkKmA==
+artalk@^2.4.3:
+  version "2.4.3"
+  resolved "https://registry.npmjs.org/artalk/-/artalk-2.4.3.tgz"
+  integrity sha512-fdPBIY1nPjF1JG4fQGrTcf0FHQqe573x/jBZW14rasVwjMS0ccJJPC8kxqFBVi3YCSVzk3xMsPWUA/uAJW5WMQ==
   dependencies:
     abortcontroller-polyfill "^1.7.3"
     hanabi "^0.4.0"
@@ -7365,26 +7365,26 @@ hexo-butterfly-clock@1.0.7:
   dependencies:
     pug "^3.0.0"
 
-hexo-butterfly-extjs@1.2.9:
-  version "1.2.9"
-  resolved "https://registry.npmjs.org/hexo-butterfly-extjs/-/hexo-butterfly-extjs-1.2.9.tgz"
-  integrity sha512-Wc8MS4ntLK0e6T21u5SG0fLR9aBrZPIbFxpfU+40I2RKgpIhr5/ndkd32b09CRRW2v1xWVsk7VfK41SdCuiyEA==
+hexo-butterfly-extjs@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.npmjs.org/hexo-butterfly-extjs/-/hexo-butterfly-extjs-1.3.0.tgz"
+  integrity sha512-JLl17lYGQFQaZ2nq2ajfMGY7GF+GgHEf8JEQgAuc8utWY8Rpo8siFqWuZ+bemwRliEDKAAIQvJF4g+6+l0YP8A==
   dependencies:
     "@fancyapps/ui" "^4.0.31"
     "@fortawesome/fontawesome-free" "^6.2.0"
     "@waline/client" "^2.13.0"
     algoliasearch "^4.14.2"
     aplayer "^1.10.1"
-    artalk "^2.4.2"
+    artalk "^2.4.3"
     blueimp-md5 "^2.19.0"
     butterfly-extsrc "^1.1.3"
     disqusjs "^3.0.2"
     flickr-justified-gallery "^2.1.2"
     gitalk "^1.8.0"
     instant.page "^5.1.1"
-    instantsearch.js "^4.48.1"
+    instantsearch.js "^4.49.0"
     js-yaml "^4.1.0"
-    katex "^0.16.2"
+    katex "^0.16.3"
     mathjax "^3.2.2"
     medium-zoom "^1.0.6"
     mermaid "^9.1.7"
@@ -7541,11 +7541,6 @@ hexo-offline@2.0.1:
   integrity sha512-0Ibh3uUk13/UhXgsXw9iPnGU0Avt2qTy9V8GhhzTJVkVz339xEouHAu4K+xfXA7fCs12R5ifgHaur85q1t3C8A==
   dependencies:
     workbox-build "^6.4.2"
-
-hexo-pagination@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmmirror.com/hexo-pagination/-/hexo-pagination-1.0.0.tgz"
-  integrity sha512-miEVFgxchPr2qNWxw0JWpJ9R/Yaf7HjHBZVjvCCcqfbsLyYtCvIfJDxcEwz1sDOC/fLzYPqNnhUI73uNxBHRSA==
 
 hexo-pagination@3.0.0:
   version "3.0.0"
@@ -8063,7 +8058,7 @@ instant.page@^5.1.1:
   resolved "https://registry.npmmirror.com/instant.page/-/instant.page-5.1.1.tgz"
   integrity sha512-7FhcXQ+FSUjN8pqBFVDbwJwcXsV6mPLmQosdb1FYbZGaL9TWUPg08yHaK2RdmgnkJ6lPzEp4T3Opx/HcFDUbRQ==
 
-instantsearch.js@^4.48.1:
+instantsearch.js@^4.49.0:
   version "4.49.0"
   resolved "https://registry.npmjs.org/instantsearch.js/-/instantsearch.js-4.49.0.tgz"
   integrity sha512-ihnc4CLlO1tQMeQDEQtFl6cWsotVGaOGbiPY6kNd+XsVpSCWngdBFPnnwcIVWG2MfEd9A/ypnpe/eR3fm6EcVA==
@@ -8985,7 +8980,7 @@ justified-layout@^4.1.0:
   resolved "https://registry.npmmirror.com/justified-layout/-/justified-layout-4.1.0.tgz"
   integrity sha512-M5FimNMXgiOYerVRGsXZ2YK9YNCaTtwtYp7Hb2308U1Q9TXXHx5G0p08mcVR5O53qf8bWY4NJcPBxE6zuayXSg==
 
-katex@^0.16.2:
+katex@^0.16.3:
   version "0.16.3"
   resolved "https://registry.npmjs.org/katex/-/katex-0.16.3.tgz"
   integrity sha512-3EykQddareoRmbtNiNEDgl3IGjryyrp2eg/25fHDEnlHymIDi33bptkMv6K4EOC2LZCybLW/ZkEo6Le+EM9pmA==
