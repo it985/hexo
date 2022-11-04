@@ -41,8 +41,8 @@
     "update": "0.7.4"
   },
   "devDependencies": {
-    "@babel/core": "7.19.6",
-    "@babel/preset-env": "7.19.4",
+    "@babel/core": "7.20.2",
+    "@babel/preset-env": "7.20.2",
     "del": "7.0.0",
     "gulp": "4.0.2",
     "gulp-babel": "8.0.0",
